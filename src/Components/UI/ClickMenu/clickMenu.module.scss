@@ -1,0 +1,260 @@
+.clickMenu {
+  background-image: url("/img/viberite-nas.jpg");
+  align-items: center;
+  justify-content: center;
+  // height: 90vh;
+  // никогда не задавайте ширину таким образом
+  // элемент уже выравнивается и занимает всю доступную ширину
+  // с помощью того что он обернут в тег div
+  //  с классом container
+  //width: 1348px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Roboto, Helvetica, sans-serif;
+  margin-top: 8%;
+  background-size: cover;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.btn_cont{
+  width: 66%; 
+}
+
+.mainStyle {
+  margin-top: 3%;
+}
+.tittle {
+  // Не задавайте лишние margin
+  // выравнивайте с помощью display flex и
+  // justify-content center
+  // а если нужен отступ от края
+  // задавайте margin но в px или максимум rem
+  // margin-left: 5%;
+  font-weight: 450;
+}
+
+.button{
+  width: 100%;
+}
+
+.textStyle {
+  color: #83c147;
+}
+
+
+.imageStyle {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  rotate: -20deg;
+}
+.clickButtons {
+  // width: 650px;
+  height: 280px;
+  background-color: #edf6f3;
+  border-radius: 28px;
+  // margin-left: 45%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clickButtonsMenu {
+  display: flex;
+  // делаем внутренние отступы со всех сторон
+  // чтобы элементы располагались по середине
+  padding: 18px;
+  column-gap: 20px;
+}
+.firstPart {
+  padding-top: 5%;
+  // margin-left: 10%;
+}
+.textConf {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 1%;
+}
+.button {
+  // width: 530px;
+  // margin-left: 10%;
+  // margin-top: 5%;
+  height: 55px;
+  border-radius: 8px;
+  background-color: #83c147;
+  border: 1px solid #83c147;
+  color: white;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.buttonClick {
+  border: none;
+}
+.buttonClick:active,
+.buttonClick:focus {
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  .clickMenu {
+    // width: 1000px;
+    width: 100%;
+    height: 100%;
+  }
+  .clickButtons {
+    // margin-left: 30%;
+    margin-top: 20%;
+   }
+   .clickButtonsMenu {
+     display: flex;
+   }
+   .textConf {
+     font-size: 10px;
+     text-align: center;
+     margin-top: 1%;
+   }
+   .tittle{
+    font-size: 36px;
+   }
+}
+@media (max-width: 1000px) {
+  // не нужно задавать стили width и height они 
+  // наследуются из предыдущего медиа запроса
+  .clickMenu {
+    // width: 768px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 35px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    margin-top: 25%;
+  //  margin-left: 10%;
+  }
+  .clickButtonsMenu {
+    display: flex;
+    
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 768px) {
+  .clickMenu {
+    // width: 580px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 35px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    // width: 400px;
+    height: 100%;
+    // margin-left: 22%;
+    margin-top: 25%;
+  }
+  .clickButtonsMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .button{
+    // width: 340px;
+    height: 55px;
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 480px) {
+  .clickMenu {
+    // width: 450px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 28px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    // width: 400px;
+    height: 100%;
+    // margin-left: 2%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .clickButtonsMenu {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .button{
+    // width: 340px;
+    height: 55px;
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}
+@media (max-width: 320px) {
+  .clickMenu {
+    // width: 320px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 22px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    // width: 280px;
+    height: 100%;
+    // margin-left: 1%;
+    margin-top: 15%;
+  }
+  .clickButtonsMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstPart{
+    // width: 240px;
+  }
+  .button{
+    // width: 240px;
+    height: 55px;
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .firstPart{
+    color: rgb(71, 70, 70);
+  }
+
+  .textConf,
+  .tittle{
+    color: rgb(71, 70, 70);
+  }
+
+  
+}

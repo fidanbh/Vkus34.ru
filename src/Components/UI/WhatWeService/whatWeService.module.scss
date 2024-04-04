@@ -1,0 +1,137 @@
+.whatWeService {
+  align-items: center;
+  justify-content: center;
+  // height: 60vh;
+  // width: 1348px;
+  max-width: 100%;
+  width: 100%;
+  // background-position: center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+.serviceMenu {
+  margin-left: 8%;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serviceSecondMenu {
+  // margin-left: 8%;
+  background-color: #83c147;
+  // width: 450px;
+  width: 60%;
+  height: 172px;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 3%;
+  // margin-left: 10%;
+  padding: 40px;
+  p {
+    // margin-top: 10%;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .whatWeService {
+    width: 1000px;
+    height: 100%;
+    margin-top: 2%;
+  }
+  .serviceSecondMenu {
+    padding: 2px;
+    p {
+      color: white;
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .whatWeService {
+    width: 768px;
+    height: 100%;
+    margin-top: 2%;
+  }
+  .serviceMenu {
+    margin-left: 2%;
+    // width: 768px;
+  }
+  .serviceSecondMenu {
+    padding: 10px;
+    p {
+      color: white;
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .whatWeService {
+    // width: 480px;
+    height: 100%;
+    margin-top: 2%;
+    font-size: 15px;
+  }
+  .serviceMenu {
+    margin-left: 2%;
+    // width: 480px;
+  }
+  .serviceSecondMenu {
+    // margin-left: 2%;
+    // width: 450px;
+    height: 100%;
+    padding: 5px;
+    color: white;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .whatWeService {
+    width: 400px;
+    height: 100%;
+    margin-top: 2%;
+    font-size: 15px;
+  }
+  .serviceMenu {
+    margin-left: 2%;
+    width: 320px;
+  }
+  .serviceSecondMenu {
+    // margin-left: 2%;
+    // width: 320px;
+    height: 100%;
+    padding: 5px;
+    color: white;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .whatWeService {
+    width: 280px;
+    height: 100%;
+    margin-top: 2%;
+    font-size: 14px;
+  }
+  .serviceMenu {
+    margin-left: 2%;
+    width: 260px;
+  }
+  .serviceSecondMenu {
+    // margin-left: 2%;
+    // width: 260px;
+    height: 100%;
+    padding: 5px;
+    color: white;
+    p {
+      font-size: 16px;
+    }
+  }
+}

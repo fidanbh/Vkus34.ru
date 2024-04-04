@@ -1,0 +1,242 @@
+.menuMain {
+  background-image: url("/img/qlavnaya.jpg");
+  align-items: center;
+  justify-content: center;
+  //min-height: 92vh;
+  width: 100%; 
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  font-family: Roboto, Helvetica, sans-serif;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding-bottom: 40px;
+  //margin-top: -2%;
+}
+
+.lists{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-bottom: 21px;
+}
+
+.main {
+  //margin-left: 5%;
+  display: flex;
+  // flex-direction по умолчанию row
+  // это не надо указывать
+  //flex-direction: row;
+  
+}
+.secondmain {
+  //width: 50%;
+  //margin-top: 2%;
+}
+.tittleMain {
+  //font-weight: 400;
+  //font-size: 4vw;
+  //margin-top: 8%;/*/
+}
+.contextMain {
+  //font-size: 1.5vw;
+  //font-weight: 350;
+}
+.menuImage img {
+  // width: 540px;
+  // height: 540px;
+  // margin-left: -5%;
+  // position: absolute;
+  //width: 85%;
+  //max-width: 540px;
+  //height: auto;
+  //margin-left: auto;
+  //margin-right: auto;
+}
+.textColor {
+  color: #83c147;
+  word-wrap: break-word;
+}
+.lists {
+  //font-size: 1vw;
+  //font-weight: 400;
+}
+.lists li {
+  //margin-top: -1%;
+}
+.lists li::marker {
+  // text-decoration: none;
+  color: #83c147;
+  //font-size: 2vw;
+}
+.buttonStyle {
+  background-color: #83c147;
+  //width: 40%;
+  //max-width: 250px;
+  //height: auto;
+  //margin-left: 2%;
+  //margin-right: auto;
+  //margin-bottom: 2%;
+  color: white;
+  box-shadow: 2px 2px #849474;
+  //font-size: 1.5vw;
+}
+
+@media (max-width: 1200px) {
+  .menuMain {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  // .menuMain {
+  //   width: 768px;
+  // }
+  // никогда не надо так задавать ширину в px
+  // кроме элементов картинки, блока с текстом
+  .menuMain {
+    width: 100%;
+  }
+  .tittleMain {
+    //text-wrap: wrap;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+  }
+  .secondmain {
+    //width: 60%;
+  }
+  .menuImage img {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+  }
+  .contextMain {
+    //font-size: 3vw;
+    font-size: 20px;
+    font-weight: 350;
+  }
+  .lists {
+    //font-size: 1.5vw;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .buttonStyle {
+    max-width: 40vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .menuMain {
+    width: 100%;
+  }
+  .tittleMain {
+    //font-size: 6vh;
+    padding: 0;
+    margin: 0;
+  }
+  .secondmain {
+    width: 70%;
+  }
+  .menuImage img {
+    width: 100%;
+    height: 35vh;
+    object-fit: contain;
+  }
+  .contextMain {
+    // нельза задавать font-size в таких единицах
+    // во избежание переполнения
+    // шрифт становится слишком большим
+    // шрифт только в px, rem
+    //font-size: 3.5vw;
+    font-weight: 350;
+  }
+  .lists {
+    //font-size: 2.3vw;
+    font-weight: 400;
+  }
+  .buttonStyle {
+    // width: 20vh;
+    // height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .menuMain {
+    width: 100%;
+  }
+  .main {
+    display: flex;
+    // меняем расположение элементов
+    // чтобы они шли в колонку
+    // в ширину они не помещаются
+    flex-direction: column;
+  }
+  .tittleMain {
+    //font-size: 5vh;
+    padding: 0;
+    margin: 0;
+  }
+  .menuImage img {
+    width: 100%;
+    height: 35vh;
+    object-fit: contain;
+  }
+  .contextMain {
+    //font-size: 3.5vw;
+    font-weight: 350;
+  }
+  .lists {
+    //font-size: 2.3vw;
+    font-weight: 400;
+  }
+  .buttonStyle {
+    max-width: 40vh;
+  }
+}
+@media (max-width: 320px) {
+  .menuMain {
+    width: 100%;
+  }
+ 
+}
+@media (max-width: 284px){
+
+  .tittleMain{
+    font-size: 22px;
+  }
+}
+
+
+
+.main{
+  // добавляем стили для выравнивания элементов
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+// это обертка для всех компонентов
+// выравнивает по ширине 
+//  и не дает выйти за пределы контейнера
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+// задаем ширине картинке в calc
+// чтобюы она уменьшалась
+.menu__img{
+  width: calc(100% - 50px);
+  height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tittleMain{
+    color: rgb(71, 70, 70);
+  }
+
+  .secondmain{
+    color: rgb(71, 70, 70);
+  }
+}

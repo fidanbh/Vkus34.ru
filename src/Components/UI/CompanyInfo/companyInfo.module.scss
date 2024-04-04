@@ -1,0 +1,181 @@
+.aboutCompany {
+  background-image: url("/img/vse-o-kompaniyi.jpg");
+  align-items: center;
+  justify-content: center;
+  // не задавайте высоту
+  // блок займет нужную высоту ориентируясь
+  // на элементы внутренние
+  //  и отступы
+  // height: 100vh;
+  max-width: 100%;
+
+  background-position: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ceoMenu {
+  display: flex;
+  margin-left: 8%;
+}
+.ceoInfo {
+  width: 600px;
+}
+.ceoImage img {
+  // width: 300px;
+  // height: 400px;
+  // object-fit: cover;
+  // margin-top: 12%;
+  // margin-left: 13%;
+  // width: 30%; /* Adjusted to be responsive */
+  height: auto; /* Allow the height to adjust proportionally */
+  max-width: 300px; /* Added to limit the maximum width */
+  max-height: 400px; /* Added to limit the maximum height */
+  object-fit: cover;
+  margin-top: 5%; /* Adjusted margin for responsiveness */
+  margin-left: 5%; /* Adjusted margin for responsiveness */
+  width: 80%;
+  height: auto;
+  margin-left: 15%;
+  object-fit: cover;
+  margin-top: 55%;
+}
+
+@media (max-width: 1200px) {
+  .aboutCompany {
+    width: 100%;
+    height: 100%;
+  }
+  .ceoImage img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    object-fit: cover;
+    margin-top: 55%;
+  }
+}
+@media (max-width: 1000px) {
+  .aboutCompany {
+    // width: 768px;
+    width: 100%;
+    // height: 100%;
+  }
+  .ceoImage img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    object-fit: cover;
+    margin-top: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutCompany {
+    // width: 480px;
+    width: 100%;
+    height: 30%;
+  }
+  .ceoMenu {
+    margin-left: 5%;
+  }
+  .logo {
+    font-size: 28px;
+    text-align: center;
+  }
+  .ceoMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ceoInfo {
+    width: 440px;
+    padding: 5px;
+  }
+  .ceoImage img {
+    width: 80%;
+    // height: auto;
+    // margin-left: 10%;
+    object-fit: cover;
+    margin-top: 5%;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutCompany {
+    width: 100%;
+  }
+  .ceoMenu {
+    margin-left: 2%;
+  }
+  .logo {
+    // font-size: 26px;
+    // text-align: center;
+    width: 100%;
+  }
+  .ceoMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .ceoInfo {
+    width: 350px;
+  }
+  .ceoImage img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    object-fit: cover;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .aboutCompany {
+    // width: 310px;
+    width: 100%;
+    // height: 100%;
+  }
+
+  .logo {
+    font-size: 22px;
+    text-align: center;
+  }
+  .ceoMenu {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ceoInfo {
+    width: 280px;
+  }
+  .ceoImage img {
+    width: 250px;
+    height: auto;
+    margin-left: 1%;
+    object-fit: cover;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 280px) {
+  .aboutCompany {
+    width: 100%;
+  }
+  .ceoImage img {
+    width: 200px;
+    height: auto;
+    margin-left: 0;
+    object-fit: cover;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .ceoInfo{
+    color: rgb(71, 70, 70);
+  }
+}

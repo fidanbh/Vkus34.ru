@@ -1,0 +1,29 @@
+.reviewsStyle {
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  max-width: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("/img/otzivi-fon.jpg");
+}
+.reviewsTittle {
+//   margin-left: 5%;
+//   margin-top: 5%;
+}
+.mailColor {
+  color: #83c147;
+}
+// .reviewsMenu {
+//   margin-left: 5%;
+// }
+.reviewsText {
+  font-size: 32px;
+  font-weight: 500;
+}
+@media (prefers-color-scheme: dark) {
+  .reviewsStyle {
+    color: rgb(71, 70, 70);
+  }
+}

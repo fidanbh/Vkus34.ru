@@ -1,0 +1,89 @@
+.ImageStyle {
+  // display: grid;
+  // grid-template-columns: auto auto auto auto auto;
+  // margin-left: 3%;
+  justify-items: center;
+}
+.Images {
+  object-fit: contain;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.Images{
+  width: 200px;
+  height: auto;
+  border-radius: 9px;
+ 
+}
+
+.ImageProd{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;  
+  justify-items: center;
+  gap: 20px;
+}
+
+
+@media (max-width: 1200px) {
+  .ImageStyle {
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    // gap: 2px;
+    // width: 900px;
+  }
+
+  .Images {
+    // width: 200px !important;
+    // height: 200px;
+    // object-fit: contain;
+  }
+}
+@media (max-width: 1000px) {
+
+  .ImageProd{
+    grid-template-columns: auto auto auto ;
+  }
+
+  .ImageStyle {
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // gap: 2px;
+    // width: 900px;
+    // justify-items: center ;
+  }
+
+  .Images {
+    // width: 200px !important;
+    // height: 200px;
+    // object-fit: contain;
+  }
+}
+
+@media (max-width: 800px) {
+  .ImageProd{
+    grid-template-columns: auto auto;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .ImageProd{
+    grid-template-columns: auto;
+  }
+  .ImageProd{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 320px) {
+ 
+
+  
+}

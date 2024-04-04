@@ -1,0 +1,104 @@
+
+/* не советую никогда использовать
+сторонние библиотеки для например слайдеров
+они навешивают странные стили
+это все не настраеваемо
+советую все писать самому */
+ 
+.partsDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.parts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-slide > div{
+  border: 15px solid #83C147;
+  border-radius: 30px; 
+  /* sonradan 50ni 30 eledim */
+  /* это делает отступ между слайдами */
+  margin: 0 4px;
+}
+
+.parts img {
+  /* задаем картинке необходимые параметры */
+  width: 248px;   
+  height: 270px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.partsText {
+  text-align: center;
+  background-color: #83C147;
+  color: white;
+  height: 100px;
+  /* занимает всю доступную ширину */
+  width: 100%;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.slider__wrapper{
+  /* в этом случае получилось выровнять по середине только так
+  мешают стили из библиотеки */
+  padding: 20px 154px;
+}
+
+.slick-track{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* делаем отступы между элементами */
+  column-gap: 30px;
+}
+
+@media(max-width: 1200px) {
+  .parts img{
+    /* задаем ширину и высоту в rem
+    чтобы уменьашлись пропорционально */
+    width: 14rem;
+
+  }
+}
+
+@media(max-width: 1100px) {
+  .parts img{
+    /* теперь пускай занимает все свободное место */
+    width: 100%;
+  }
+}
+
+@media(max-width: 1024px) {
+  .parts img{
+    /* width: 18.8rem; */
+    width: 100%;
+  }
+}
+
+@media(max-width: 760px) {
+  .slider__wrapper{
+    /* слайды стали слишком маленькими
+    делаем внутренние отступы меньше */
+      padding: 20px 80px;
+  }
+  .partsText{
+    /* пускай текст занимает всю доступную высоту */
+    height: 100%;
+  }
+}    
+
+
+
+
+
+
+

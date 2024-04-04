@@ -1,0 +1,81 @@
+.modal {
+ position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalSecond {
+  //position: fixed;
+  //top: 10%;
+  right: 0;
+  bottom: 0;
+  //left: 350px;
+  z-index: 1000;
+  //height: 75%;
+ //width: 35%;
+  background-color: rgb(248, 246, 246);
+  border-radius: 24px;
+  padding: 25px;
+}
+.closeBtn {
+  margin-left: 92%;
+  margin-top: 3%;
+  background-color: white;
+  color: #83c147;
+  //width: 25px;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  height: auto;
+}
+.tittleText {
+  font-size: 38px;
+  font-weight: 420;
+  color: lightblack;
+}
+.inputStyle {
+  //width: 370px;
+  //height: auto;
+  width: 95%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #83c147;
+}
+.inputStyle:focus,
+.inputStyle:active,
+.inputStyle:hover {
+  border: 1px solid #83c147;
+}
+label{
+  margin-top: 5%;
+}
+.inputSubmit{
+  //width: 375px;
+  width: 95%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #83c147;
+  background-color: #83c147;
+  color: white;
+  font-size: 16px;
+  font-weight: 450;
+  margin-top: 35px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tittleMain{
+    color: rgb(71, 70, 70);
+  }
+
+  .secondmain{
+    color: rgb(71, 70, 70);
+  }
+}

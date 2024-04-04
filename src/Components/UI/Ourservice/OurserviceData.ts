@@ -1,0 +1,30 @@
+const data = [
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+  "https://i.hizliresim.com/j66ja7i.jpg",
+];
+
+const datas = [
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+  "https://i.hizliresim.com/eatpakr.jpg",
+];

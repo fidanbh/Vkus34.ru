@@ -1,0 +1,197 @@
+.whyWe {
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  // height: 100vh;
+  //width: 1348px;
+  // background-size: 100% 100%;
+  // background-repeat: no-repeat;
+  //max-width: 100%; /* Adjusted to allow responsiveness */
+  //width: 100%; /* Added to ensure the container fills the width of its parent */
+  // background-position: center;
+  // background-size: cover; /* Changed to cover for better responsiveness */
+}
+.whyWe {
+  background-image: url("https://i.hizliresim.com/50tqt0c.jpeg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 10% 70%;
+}
+.tittle {
+  // margin-left: 8%;
+  font-weight: 520;
+}
+.spanText {
+  color: #83c147;
+}
+.whyWeList {
+  // height: 50vh;
+  padding-bottom: 50px;
+  // margin-left: 6%;
+}
+.list {
+  display: flex;
+  margin-top: 2%;
+  align-items: center;
+  column-gap: 10px;
+}
+.listDotFirst {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px dotted grey;
+  padding-left: 3px;
+  //   margin-right: 3%;
+}
+.listDotSecond {
+  // margin-left: 1%;
+}
+.listDone {
+  color: #83c147;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1%;
+}
+.buttonPart {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  // margin-left: 9%;
+}
+.buttonText {
+  font-size: 32px;
+  // width: 390px;
+  // margin-left: 2%;
+  font-weight: 470;
+  color: rgb(34, 34, 34);
+}
+.verticalLine {
+  border-left: 3px solid rgb(199, 197, 197);
+  height: 90px;
+}
+.buttonStyle {
+  background-color: #83c147;
+  // width: 250px;
+  height: 58px;
+  margin-left: 10px;
+  // margin-left: 9%;
+  color: white;
+  box-shadow: 2px 2px #849474;
+  margin-top: 2%;
+  font-size: 16px;
+  font-weight: 600;
+}
+@media (max-width: 1200px) {
+  .whyWe {
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 35px;
+  }
+  .box{
+    // width: 950px;
+    // margin-left: 5%;
+  }
+ .mainPart{
+  background-size: 13% 70%;
+ }
+}
+@media (max-width: 1000px) {
+  .whyWe {
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 35px;
+  }
+  .box{
+    // width: 650px;
+    // margin-left: 4%;
+  }
+ .mainPart{
+  background-size: 13% 70%;
+ }
+}
+
+@media (max-width: 768px) {
+  .whyWe {
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 35px;
+    width: 100%;
+  }
+  .box{
+    // width: 550px;
+    // margin-left: 3%;
+  }
+ .mainPart{
+  background-size: 13% 70%;
+ }
+}
+
+@media (max-width: 480px) {
+  .whyWe {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+  .tittle{
+    font-size: 35px;
+    width: 100%;
+  }
+  .box{
+    // width: 400px;
+    // margin-left: 1%;
+  }
+  .whyWeList{
+    // margin-left: 3%;
+  }
+  .buttonText{
+    font-size: 30px;
+  }
+  .buttonStyle{
+    // width: 220px;
+  }
+  .mainPart {
+    background-size: 13% 50%;
+    object-fit: contain;
+  }
+}
+@media (max-width: 320px) {
+  .whyWe {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+  .tittle{
+    font-size: 28px;
+    width: 100%;
+  }
+  .box{
+    // width: 280px;
+    // margin-left: 0;
+  }
+  .whyWeList{
+    // margin-left: 0;
+  }
+  .buttonText{
+    font-size: 28px;
+  }
+  .buttonStyle{
+    // width: 200px;
+  }
+  .mainPart {
+    background-size: 15% 50%;
+    object-fit: contain;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .buttonText{
+    color: rgb(248, 248, 248);
+  }
+}

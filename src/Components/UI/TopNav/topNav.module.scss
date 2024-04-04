@@ -1,0 +1,377 @@
+// чтобы убрать точки у списка li
+li{
+  list-style: none;
+}
+
+.topNavStyle {
+  // \\ align-items и justify-content работают только когда
+  // \\ есть display: flex
+  // align-items: center;
+  // justify-content: center;
+  // height: 25vh;
+  // width: 1348px;
+  //padding: 2% 1%;
+  margin: 0 auto;
+
+  // совершенно бессмысленные стили, они ничего не делают
+  // они применяются когда нужна картинка на фоне
+  //background-position: center;
+  //background-size: 100% 100%;
+  //background-repeat: no-repeat;
+}
+.topNav {
+   //display: flex;
+  //height: 15vh;
+  //margin-left: 1%;
+  //padding-bottom: 2%;
+  //margin-top: -2%;
+
+  // Выравнивание по центру
+  margin: 0 auto;
+  
+  &_logo span {
+    //text-align: start;
+  }
+}
+.logoImage {
+  //width: 100px;
+
+  // зададим ширину в calc чтобы она уменьшалась пропорционально
+  // width: calc(100% - 150px);
+  width: 100%;
+
+  //height: 100px;
+  //object-fit: contain;
+}
+
+.topNav_list li {
+  text-decoration: none;
+  //display: inline-block;
+}
+.line {
+  //margin-left: 5%;
+  //margin-right: 5%;
+  //margin-
+  //width: calc(100% - 166px);
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+.topNav_logo{
+  width: 100px;
+}
+
+.adressListLi,
+.topNav_logo{
+  //margin-left: 5%;
+  // выровнял внутренности элемента по центру
+  // align-items вертикалльно
+  // jusitfy-content горизонтально
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adressList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // зададим ширину в calc чтобы она уменьшалась пропорционально
+  //width: calc(100% - 110px);
+
+  //width: 210px;
+  //height: 100%;
+}
+.adressPart2 {
+  //margin-left: 10px;
+}
+.whatsappStyleLi {
+
+  // все вот это нужно заменить на margin-left: 20px
+  //margin-left: 2%;
+  //margin-top: -15%;
+}
+.whatsappStyle {
+  display: flex;
+}
+
+.location {
+  color: #83c147;
+  font-size: 35px;
+  //margin-top: 20%;
+}
+.contactStyleLi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  //margin-left: 5%;
+}
+.contactStyle {
+  //width: 250px;
+}
+.dotsStyle {
+  color: #83c147;
+  font-size: 18px;
+}
+.phoneStyle {
+  color: #83c147;
+  font-size: 24px;
+}
+.phoneStyleText {
+  font-size: 24px;
+  font-weight: 450;
+}
+.buttonCall {
+  //margin-left: 5%;
+  // вообще не понятно зачем нужен margin-bottom
+  //margin-bottom: 5%;
+  button {
+    border: 2px solid #83c147;
+    color: #83c147;
+    background-color: white;
+    //height: 55px;
+    //width: 220px;
+    // если вы хотите задать ширину и высоту кнопке
+    // лучше всего это делать через padding
+    // это внутренние отступы
+    // в этом примере 10px сверху и снизу
+    // и 20px по бокам
+    padding: 10px 20px;
+  }
+}
+.Navbarlists {
+  //margin-left: 1%;
+}
+.listOfNav a li {
+  list-style: none;
+  //display: inline-block;
+  //margin-left: 7%;
+  color: #83c147;
+  font-size: 18px;
+}
+.whatsappImage {
+  color: #83c147;
+  font-size: 28px;
+}
+.blogPagesLi {
+  visibility: hidden;
+  position: absolute;
+}
+
+.whatsAppMobileCont{
+  display: none;
+}
+
+.uslugiStil {
+  // height: 35vh;
+  // width: 40vh;
+  height: auto;
+  max-width: 40vh;
+  
+  background-color: white;
+  position: fixed;
+  top: 140px;
+  left: 280px;
+  background-color: #fff;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 100;
+  font-size: 12px;
+  color: #83c147;
+  // padding: auto;
+  padding: 25px;
+  align-items: center;//sonradan yazdim bunu
+  align-content: center;
+}
+.uslugiStilUl {
+  //margin-top: 5%;
+}
+.uslugiStilUl li a {
+  font-size: 14px;
+  color: #83c147;
+  padding-top: 15px;
+}
+
+.topNav_list{
+  display: flex;
+  // в данном случае удачнее всего 
+  // сделать space-evenly
+  // чтобы между элеменнтами было одинковое расстояние
+  justify-content: space-between;
+  align-items: center;
+}
+.uslugiPointer{
+  cursor: pointer;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+//  Выровнял иконки и текст по середине и сделал отступы
+//  с помощью column-gap
+.contactNumber,
+.contactStyle,
+.whatsappStyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
+}
+
+ .contactStyle{
+   font-size: 11px;
+ }
+
+ .phoneStyleText{
+   font-size: 15px;
+   font-weight: 600;
+ }
+
+//  задал ширину в calc чтобы она уменьшалась пропорционально
+ .adressListLi{
+   width: calc(50% - 378px);
+ }
+
+ .topNav__logo_li{
+  //  width: calc(50% - 327px);
+ }
+
+
+ .listOfNav{
+   display: flex;
+  //  в данном случае удачнее всего
+  //  сделать space-between чтобы элементы расположились \
+  //  слева и справа
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 50px;
+ }
+
+//  просто задал ширину чтобы картинка отображалась как надо
+ .whatsappStyle{
+   width: 142px;
+ }
+
+//  пока что нам кнопка не нужна
+.menu__container{
+  display: none;
+}
+
+
+
+
+ @media(max-width: 1100px) {
+  // уменьшаю текст чтобы не вылезало за пределы
+   .adressList,
+   .whatsappStyle,
+   .phoneStyleText,
+   .buttonCall{
+     font-size: 12px;
+   }
+// на этом разрешении делаю ширину авто
+// чтобы картинка не стала совсем маленькой
+   .topNav__logo_li{
+     width: auto;
+     height: auto;
+   }
+   .uslugiStil{
+    left: 200px;
+   }
+ }
+
+@media(max-width: 1005px) {
+  // убираем все лишние элементы
+  //  которые уже не влезают
+  // поместим их\ в меню
+  .adressList{
+    display: none;
+  }
+// показываем кнопку
+  .menu__container{
+    display: block;
+  }
+  .topNav_list{
+    justify-content: space-between;
+  }
+
+  .listOfNav{
+    display: none;
+  }
+}
+
+@media(max-width: 768px) {
+  .contactNumber,
+  .contactStyle,
+  .buttonCall,
+  .whatsappStyle{
+    display: none;
+  }
+
+  .menu__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .whatsAppMobileCont{
+    display: block;
+  }
+
+  .whatsAppMobileCont{
+    color: #83c147;
+    padding-top: 3px;
+  }
+
+  .whatsAppImage{
+    width: 45px;
+    height: auto;
+  }
+
+  .topNav_logo{
+    width: 60px;
+    height: auto;
+  }
+
+  
+  
+}
+
+@media(max-width: 630px) {
+  .logoImage{
+    width: 60px;
+    height: auto;
+  }
+}
+
+@media(max-width:550px) {
+  // flex wrap перемещает элементы на следующую строку
+  // если они не помещаются
+  .listOfNav{
+    flex-wrap: wrap;
+    column-gap: 5px;
+  }
+}
+
+@media(max-width: 410px) {
+  // теперь и это не помещается,
+  // поэтому убираем
+  .whatsappStyle{
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .tittleMain{
+    color: rgb(71, 70, 70);
+  }
+
+  .secondmain{
+    color: rgb(71, 70, 70);
+  }
+}

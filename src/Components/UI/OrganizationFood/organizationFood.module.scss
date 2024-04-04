@@ -1,0 +1,432 @@
+.organizationKitchen {
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  //max-width: 1348px;
+  font-family: Roboto, Helvetica, sans-serif;
+  padding: 25px;
+  box-sizing: border-box;
+  background-image: url("/img/qlavnaya.jpg");
+}
+
+.dostavkaTittle {
+  //margin-left: 5%;
+  //   margin-top: 5%;
+  font-weight: 530;
+}
+.dostavkaSpan {
+  color: #83c147;
+}
+.dostavkaText {
+  font-weight: bold;
+}
+.dostavkaMenu {
+  // margin-left: 6%;
+}
+.services {
+  height: 15vh;
+  margin-top: 5%;
+  display: flex;
+  margin-right: 3%;
+  margin-left: 2%;
+}
+.servicesPart {
+  height: 15vh;
+  margin-left: 2%;
+  // background-color: #edf6f3;
+  // padding: 1%;
+  border-radius: 22px;
+  font-size: 14px;
+}
+.numberStyle {
+  background-color: #83c147;
+  font-size: 42px;
+  font-weight: 600;
+  width: 70px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 18px;
+  position: absolute;
+  // margin-top: 4%;
+  margin-left: 1%;
+}
+.textStyle {
+  margin-top: -5%;
+  position: relative;
+}
+.aboutDish {
+  margin-top: 25%;
+  text-align: center;
+  width: 1200px;
+  margin-left: 5%;
+}
+
+.openingKitchen {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1348px;
+  font-family: Roboto, Helvetica, sans-serif;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.tittle {
+  //margin-left: 5%;
+  font-weight: 410;
+  color: #494949;
+  font-size: 42px;
+  padding-top: 1%;
+}
+.spanText {
+  // margin-top: -2%;
+  // margin-left: 5%;
+  a {
+    color: #83c147;
+  }
+}
+.firstPartStyle {
+  background-image: url("/img/fon.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.firstPart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 10px;
+}
+.firstPartDiv {
+  font-size: 14px;
+}
+.firstPartDivText {
+  font-weight: bolder;
+}
+
+.firstPartImage {
+  width: calc(100% - 150px);
+  height: auto;
+  border-radius: 12px;
+  align-items: center;
+}
+.buttonStyle {
+  background-color: #83c147;
+  width: 250px;
+  height: 58px;
+  margin-left: 3%;
+  margin-top: 5%;
+  color: white;
+  box-shadow: 2px 2px #849474;
+  font-size: 16px;
+}
+.uslugiChast {
+  background-image: url("https://i.hizliresim.com/gtust5b.jpg");
+  border-radius: 18px;
+  width: 1100px;
+  height: 220px;
+  margin-left: 8%;
+  margin-top: 5%;
+  padding: 35px;
+  background-position: center;
+  background-size: 100% 100%;
+  font-size: 18px;
+  // background-repeat: no-repeat;
+}
+.textColor {
+  color: #83c147;
+}
+.uslugiKuxni {
+  display: flex;
+}
+.uslugiKuxniFirstPart {
+  width: 700px;
+  margin-left: 4%;
+  font-size: 18px;
+}
+.uslugiKuxniSecondPart {
+  width: 700px;
+  margin-left: 3%;
+  font-size: 18px;
+  margin-top: 1%;
+}
+.noSpacing {
+  margin: 0;
+  padding: 0;
+}
+.uslugiText {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.uslugiChastStyleMain {
+  width: 1100px;
+  margin-left: 8%;
+  margin-top: 2%;
+  padding: 22px;
+  height: 75px;
+  background-color: #83c147;
+  border-radius: 18px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.uslugiChastStyle {
+  color: white;
+  font-size: 18px;
+}
+.perviy {
+  font-weight: bolder;
+}
+.posledniyeChasti {
+  margin-top: 35px;
+  height: auto;
+}
+.posledniyeChastiFirst {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding: 15px;
+}
+.posledniyeChastiFirst1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding: 15px;
+}
+.textStyle {
+  margin-top: 25px;
+  background-color: white;
+  height: auto;
+  padding: 30px;
+  font-size: 15px;
+  border-radius: 18px;
+}
+.posledniyeChastitext {
+  //width: 700px;
+  //margin-left: 5%;
+  margin-top: 2%;
+}
+.posledniyeChastiImage img {
+  width: calc(100% - 150px);
+  height: auto;
+  //margin-top: 10%;
+  //margin-left: 12%;
+}
+.textStyle1 {
+  background-color: white;
+  border-radius: 18px;
+  height: auto;
+  padding: 30px;
+  font-size: 14px;
+}
+.textStyle2 {
+  background-color: white;
+  border-radius: 18px;
+  height: auto;
+  padding: 30px;
+  font-size: 14px;
+}
+.pText {
+  width: 1000px;
+  margin-left: 8%;
+  font-size: 18px;
+  margin-top: -2%;
+}
+.parts {
+  //   display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 3%;
+  margin-left: 2%;
+  padding: 1%;
+  margin-top: 5%;
+}
+.mainBox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  //margin-left: 5%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.partsBox:first-child {
+  margin-left: 0;
+}
+.partsBox {
+  background-color: #edf6f3;
+  //width: 320px;
+  //margin-left: 4%;
+  margin-top: 35px;
+  height: auto;
+  border-radius: 22px;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.partsBoxSix {
+  background-color: #83c147;
+  //width: 320px;
+  //margin-left: 4%;
+  margin-top: 35px;
+  height: auto;
+  border-radius: 22px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+.numberStyle {
+  background-color: #83c147;
+  font-size: 42px;
+  font-weight: 600;
+  width: 70px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 18px;
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 2%;
+}
+// .secondDiv {
+//   position: absolute;
+//   margin-top: 5%;
+//   padding: 2%;
+//   height: 100px;
+// }
+.textPochemu {
+  font-weight: bolder;
+}
+
+.poslednayaChast {
+  background-image: url("https://i.hizliresim.com/sv9392n.jpg");
+  border-radius: 18px;
+  width: 1348px;
+  height: 450px;
+  object-fit: contain;
+  margin-top: 3%;
+}
+.poslednayaChastOpacity {
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #ffffff 0%, #f9f9f97d 100%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.8s;
+}
+
+.uslugiDataStyle {
+  margin-left: 5%;
+  margin-right: 8%;
+}
+
+.obedKafeteriy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  .obedKafeteriySecond {
+    margin-top: 50px;
+  }
+}
+.obedKafeteriyUl {
+  list-style: none;
+}
+.obedKafeteriyText {
+  // margin-left: 5%;
+  // margin-right: 3%;
+}
+.obedKafeteriyDisplay {
+  display: flex;
+  div {
+    margin-left: 1%;
+  }
+}
+.iconStyleObedKafeteriy {
+  color: #83c147;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nashiPreimushestva {
+  background-image: url("/img/fon1.jpg");
+  height: auto;
+  padding: 20px;
+}
+.dostavkaLastPart {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  //margin-left: 5%;
+  margin-right: 35px;
+
+  .dostavkaLastPartSecond {
+    margin-top: 35px;
+    background-color: #83c147;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .firstPart {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .numberStyle {
+    margin-top: -7%;
+  }
+  .posledniyeChastiFirst1 {
+    grid-template-columns: 1fr;
+  }
+  .posledniyeChastiImage img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .obedKafeteriy {
+    grid-template-columns: 1fr;
+    .obedKafeteriySecond {
+      margin-top: 5px;
+    }
+  }
+  .mainBox {
+    grid-template-columns: 1fr;
+  }
+  .numberStyle {
+    position: relative;
+    margin-left: -350px;
+    // width: 80px;
+  }
+  .dostavkaLastPart {
+    grid-template-columns: 1fr;
+  }
+  .tittle {
+    font-size: 25px;
+  }
+}
+@media (max-width: 450px) {
+  .numberStyle {
+    //position: relative;
+    margin-left: -220px;
+    // width: 80px;
+  }
+  .partsBox {
+    font-size: 12px;
+  }
+}
+@media (max-width: 325px) {
+  .numberStyle {
+    //position: relative;
+    margin-left: -180px;
+    // width: 80px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .organizationKitchen {
+    color: rgb(71, 70, 70);
+  }
+}

@@ -1,0 +1,21 @@
+.input {
+  height: 55px;
+  margin-top: 6%;
+  width: 330px;
+  border-radius: 12px;
+  border: 1px solid #83c147;
+}
+@media (max-width: 320px) {
+.input{
+  width: 230px;
+}
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+  .input{
+    background-color: white;
+    color: black;
+  }
+}

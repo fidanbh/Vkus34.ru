@@ -1,0 +1,209 @@
+// не дублируйте стили из одного файлма в другой
+// в imageofProductions теже самые стили
+// .imageKitchen{
+//   justify-items: center; //sonradan yazdim bunu 
+// }
+
+.ImageStyle {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  // margin-left: 3%;
+  // display: flex;
+  // flex-wrap: wrap;
+  justify-items: center ;
+  // задает отступы между колонками и строками
+  gap: 20px; //20ni 10na deyishdim
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  // padding-bottom: 100px;
+}
+
+.Images {
+  // не задавайте !important
+  // возможно есть другой выход
+  // width: 230px!important;
+  // width: 200px; //men yazdim
+  // margin: 5px!important;
+  // height: auto; //auto men eledim
+  // object-fit: contain;
+  // border-radius: 9px;
+  width: 200px;
+  height: auto;
+  border-radius: 9px;
+  object-fit: contain;
+}
+@media (max-width: 1200px) {
+  .ImageStyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    // не задавайте ширину 
+    // сетка ломается от этого
+    // width: 900px;
+  }
+  
+  // .Images {
+  //   // width: 200px!important;
+  //   height: 200px;
+  //   object-fit: contain;
+  // }
+}
+@media (max-width: 1000px) {
+  .ImageStyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    // width: 900px;
+  }
+  
+  // .Images {
+  //   // width: 200px!important;
+  //   height: 200px;
+  //   object-fit: contain;
+  // }
+}
+
+@media (max-width: 768px) {
+  .ImageStyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    // width: 650px;
+  }
+  
+  // .Images {
+  //   // width: 150px!important;
+  //   height: 140px;
+  //   object-fit: contain;
+  // }
+}
+
+@media (max-width: 480px) {
+  .ImageStyle {
+    //display: grid;
+    // grid-template-columns: auto auto auto;
+    
+    grid-template-columns: 1fr 1fr;
+    // gap: 2px;
+    // margin-left: 3%;
+    // width: 450px;
+  }
+  
+  // .Images {
+  //   // width: 120px!important;
+  //   height: 100px;
+  //   object-fit: contain;
+  // }
+}
+@media (max-width: 320px) {
+  .ImageStyle {
+   // display: grid;
+    grid-template-columns: 1fr;
+    // gap: 2px;
+  
+    // margin-left: 3%;
+    // width: 280px;
+  }
+  
+  // .Images {
+  //   width: 88px!important;
+  //   margin: 5px!important;
+  //   height: 88px;
+  //   object-fit: contain;
+  // }
+}
+
+//ozum elave etdim 
+
+// .ImageStyle {
+//   // display: grid;
+//   // grid-template-columns: auto auto auto auto auto;
+//   // margin-left: 3%;
+//   justify-items: center;
+// }
+// .Images {
+//   object-fit: contain;
+// }
+
+// .wrapper{
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+//   align-items: center;
+//   row-gap: 10px;
+//   column-gap: 30px;
+// }
+
+// .Images{
+//   width: 200px;
+//   height: auto;
+//   border-radius: 9px;
+// }
+
+// .ImageProd{
+//   display: grid;
+//   grid-template-columns: auto auto auto auto;  
+//   justify-items: center;
+//   gap: 20px;
+// }
+
+
+// @media (max-width: 1200px) {
+//   .ImageStyle {
+//     // display: grid;
+//     // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+//     // gap: 2px;
+//     // width: 900px;
+//   }
+
+//   .Images {
+//     // width: 200px !important;
+//     // height: 200px;
+//     // object-fit: contain;
+//   }
+// }
+// @media (max-width: 1000px) {
+
+//   .ImageProd{
+//     grid-template-columns: auto auto auto ;
+//   }
+
+//   .ImageStyle {
+//     // display: grid;
+//     // grid-template-columns: 1fr 1fr 1fr 1fr;
+//     // gap: 2px;
+//     // width: 900px;
+//     // justify-items: center ;
+//   }
+
+//   .Images {
+//     // width: 200px !important;
+//     // height: 200px;
+//     // object-fit: contain;
+//   }
+// }
+
+// @media (max-width: 800px) {
+//   .ImageProd{
+//     grid-template-columns: auto auto;
+//   }
+// }
+
+
+
+// @media (max-width: 480px) {
+//   .ImageProd{
+//     grid-template-columns: auto;
+//   }
+// }
+// @media (max-width: 320px) {
+ 
+
+  
+// }
